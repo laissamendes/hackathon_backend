@@ -3,3 +3,8 @@ from .turma import Turma
 from .aluno import Aluno
 from .ocorrencia import Ocorrencia
 from .professor import Professor
+from .disciplina import Disciplina
+from .trimestre import Trimestre
+from .conselhoClasse import ConselhoClasse
+from .preConselho import PreConselho
+from .alunoTemDisciplina import AlunoTemDisciplina
