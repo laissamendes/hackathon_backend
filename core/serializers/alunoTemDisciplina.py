@@ -6,4 +6,4 @@ from core.models import AlunoTemDisciplina
 class AlunoTemDisciplinaSerializer(serializers.ModelSerializer):
     class Meta:
         model = AlunoTemDisciplina
-        fields = "_all_"
+        fields = "__all__"

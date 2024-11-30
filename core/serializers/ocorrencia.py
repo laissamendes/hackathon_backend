@@ -5,4 +5,4 @@ from core.models import Ocorrencia
 class OcorrenciaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Ocorrencia
-        fields = '_all_'
+        fields = '__all__'

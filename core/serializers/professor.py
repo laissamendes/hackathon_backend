@@ -7,4 +7,3 @@ class ProfessorSerializer(ModelSerializer):
     class Meta:
         model = Professor
         fields = "__all__"
-        depth = 1

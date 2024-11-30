@@ -4,4 +4,4 @@ from core.models import Turma
 class TurmaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Turma
-        fields = '_all_'
+        fields = '__all__'

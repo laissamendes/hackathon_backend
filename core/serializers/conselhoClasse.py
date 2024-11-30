@@ -6,4 +6,4 @@ from core.models import ConselhoClasse
 class ConselhoClasseSerializer(serializers.ModelSerializer):
     class Meta:
         model = ConselhoClasse
-        fields = "_all_"
+        fields = "__all__"

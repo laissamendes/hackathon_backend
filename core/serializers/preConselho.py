@@ -4,4 +4,4 @@ from core.models import PreConselho
 class PreConselhoSerializer(serializers.ModelSerializer):
     class Meta:
         model = PreConselho
-        fields = '_all_'
+        fields = '__all__'

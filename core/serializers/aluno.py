@@ -8,7 +8,7 @@ from uploader.serializers import ImageSerializer
 class AlunoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Aluno
-        fields = '_all_'
+        fields = '__all__'
     foto_attachment_key = SlugRelatedField(
         source="foto",
         queryset=Image.objects.all(),
