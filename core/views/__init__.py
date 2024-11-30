@@ -8,3 +8,4 @@ from .trimestre import TrimestreViewSet
 from.conselhoClasse import ConselhoClasseViewSet
 from.preConselho import PreConselhoViewSet
 from .alunoTemDisciplina import AlunoTemDisciplinaViewSet
+from .nota import NotaViewSet

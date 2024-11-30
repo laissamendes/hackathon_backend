@@ -8,3 +8,4 @@ from .trimestre import Trimestre
 from .conselhoClasse import ConselhoClasse
 from .preConselho import PreConselho
 from .alunoTemDisciplina import AlunoTemDisciplina
+from .nota import Nota
